@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3460620744",
+    "project_id": "rebly-uas",
+    "storage_bucket": "rebly-uas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3460620744:android:fd78ebaa679d4d4b10a0fd",
+        "android_client_info": {
+          "package_name": "com.example.rebly_uas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR6-VVZ5UKiNWupAfDIPbewAWEfbMQqEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

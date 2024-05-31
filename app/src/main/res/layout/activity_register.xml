@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ActivityRegister">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        android:textSize="30dp"
+        android:textColor="#455BAE"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Email"
+        tools:ignore="Autofill,HardcodedText,LabelFor,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtEmail"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPassword"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Confirmasi Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#FF6200EE"
+        android:text="Register"
+        tools:ignore="HardcodedText,DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Have an acount?"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,RtlCompat,SpUsage,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/linkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/textView4"
+        android:layout_toRightOf="@id/textView4"
+        android:text="Login"
+        android:textColor="#FF6200EE"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+</RelativeLayout>
